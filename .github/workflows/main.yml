@@ -15,4 +15,8 @@ jobs:
         port: "22" 
         script: |
           hostname
-          lxc launch images:ubuntu/20.04 testapache -s test
+          lxc launch ubuntuclean testgit -s test
+          lxc list
+          lxc delete testgit --force
+          lxc list
+          
