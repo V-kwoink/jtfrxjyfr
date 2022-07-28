@@ -13,5 +13,6 @@ jobs:
         username: "ubuntu"
         password: "6aAuThuvZfFq"
         port: "22" 
-        script: hostname
-                lxc launch images:ubuntu/20.04 testapache -s test
+        script:
+          hostname
+          lxc launch images:ubuntu/20.04 testapache -s test
