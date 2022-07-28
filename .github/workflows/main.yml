@@ -30,7 +30,5 @@ jobs:
           username: ${{ ubuntu }}
           password: ${{ 6aAuThuvZfFq }}
           port: ${{ 22 }}
-          
+
           script: hostname
-        
-     
